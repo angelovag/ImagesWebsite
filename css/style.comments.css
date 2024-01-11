@@ -1,0 +1,11 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.comment-container {
+    text-align: left; /* Align text to the left */
+}
+
+.comment-container p {
+    margin: 0;
+}

@@ -1,0 +1,83 @@
+/* Basic styling for the signup section */
+.signup_section {
+  background-color: #f8f8f8;
+  padding: 50px 0;
+}
+
+/* Style for the form container */
+.signup_section .container {
+  text-align: center;
+}
+
+/* Style for the form title */
+.signup_section h2 {
+  color: #333;
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+/* Style for form fields */
+.signup_section form input {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Style for the submit button */
+.signup_section form button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Style for the image box */
+.signup_section .img-box {
+  position: relative;
+  overflow: hidden;
+}
+
+/* Style for the image within the box */
+.signup_section .img-box img {
+  width: 100%;
+  height: auto;
+}
+
+/* Style for the overlay on the image */
+.signup_section .img_overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+}
+
+/* Style for the overlay text */
+.signup_section .img_overlay h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+/* Style for the overlay link */
+.signup_section .img_overlay a {
+  display: inline-block;
+  background-color: #fff;
+  color: #333;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.signup_section .img_overlay a:hover {
+  background-color: #4caf50;
+  color: #fff;
+}

@@ -1,0 +1,56 @@
+    body {
+      background-color: #f8f9fa;
+    }
+
+    .gallery-container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #ffffff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      margin-top: 50px;
+    }
+
+    .image-container img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+      border-radius: 8px;
+      margin-bottom: 20px;
+    }
+
+    .image-container p {
+      text-align: center;
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+
+    .image-container form {
+      text-align: center;
+    }
+
+    .image-container label,
+    .image-container textarea {
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    .image-container textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+
+    .image-container button {
+      padding: 10px 20px;
+      background-color: #f0b016;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+    }

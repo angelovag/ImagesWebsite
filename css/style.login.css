@@ -1,0 +1,54 @@
+/* Basic styling for the login section */
+.login_section {
+  background-color: #dedcdc;
+  padding: 50px 0;
+}
+
+/* Style for the form container */
+.login_section .container {
+  text-align: center;
+}
+
+/* Style for the form title */
+.login_section h2 {
+  color: #333;
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+/* Style for form fields */
+.login_section form input {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Style for the submit button */
+.login_section form button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Style for the login form container */
+.login-form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* Additional style for the form title */
+.login_section h2.text-center {
+  color: #333;
+  font-size: 36px;
+  margin-bottom: 30px;
+}
